@@ -1,0 +1,79 @@
+.btn-default {
+    background-color: black;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn-default:active{
+/*formatting goes here*/
+}
+.btn-default:hover{
+  background-color:		#B22222;
+  color: white;
+}
+.btn-default:focus{
+/*formatting goes here*/
+}
+
+body {
+  background-image: url("achtergrond.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+div {
+border-radius: 0px;
+padding: 2px;
+}
+
+.container {
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+.bg-transparent {
+  background-color: rgba(345, 345, 345, 0.8) !important;
+}
+
+.form-group{
+  color: black;
+}
+
+.titel {
+  color: black;
+  font-size: 18pt;
+}
+
+.blockquote {
+  background-color: black;
+  color: white;
+  padding: 70px;
+  opacity: .8;
+  border-radius: 0px;
+}
+
+h6 {
+  font-style: bold;
+}
+
+a{
+  color: black;
+}
+h1 {
+  color:white;
+}
+
+#section1, #section2, #section3, #section4 {
+  padding-top: 25pt;
+}
+
+#section5 {
+  padding-bottom: 25pt;
+}
