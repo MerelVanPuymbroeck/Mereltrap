@@ -1,0 +1,62 @@
+btn-default {
+  background-color: black;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px; }
+
+.btn-default:active {
+  /*formatting goes here*/ }
+
+.btn-default:hover {
+  background-color: #B22222;
+  color: white; }
+
+.btn-default:focus {
+  /*formatting goes here*/ }
+
+body {
+  background-image: url("achtergrond.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative; }
+  body .bg-transparent {
+    background-color: rgba(255, 255, 255, 0.8) !important; }
+  body .container {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  body .form-group {
+    color: black; }
+  body .titel {
+    color: black;
+    font-size: 18pt; }
+  body .blockquote {
+    background-color: black;
+    color: white;
+    padding: 70px;
+    opacity: .8;
+    border-radius: 0px; }
+  body div {
+    border-radius: 0px;
+    padding: 2px; }
+  body h6 {
+    font-style: bold; }
+  body a {
+    color: black; }
+  body h1 {
+    color: black; }
+  body nav ul {
+    background-color: white; }
+  body nav a {
+    text-decoration: underline;
+    font-weight: bold; }
+
+#section1, #section2, #section3, #section4 {
+  padding-top: 25pt; }
+
+#section5 {
+  padding-bottom: 25pt; }
